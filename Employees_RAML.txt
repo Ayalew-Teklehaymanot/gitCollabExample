@@ -1,0 +1,20 @@
+#%RAML 1.0
+title: CDI-24 Mule ESB Final Project
+description: This RAMl ....
+mediaType: 
+- application/json
+/employees:
+  get:
+    headers: 
+      Accept?:
+    responses: 
+      200:
+        headers: 
+          Cache-Control:
+          Expires:
+            type: datetime
+        body:
+            type: 
+      400:
+        body: 
+          type: 
